@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  min-height: 40vh;
+  max-width: 500px;
+  background: url("https://images.unsplash.com/photo-1493119508027-2b584f234d6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8aHRtbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60")
+    no-repeat center center;
+  opacity: 70%;
+}
+.arrow_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  z-index: 100;
+}
+.arrow {
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  user-select: none;
+}
+.dots_container {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+.dot {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 6px 4px;
+  background-color: none;
+}
+.dot :hover {
+  border: 5px solid blue;
+}
